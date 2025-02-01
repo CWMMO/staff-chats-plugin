@@ -1,0 +1,14 @@
+staffchat:
+  display-name: "Staff"
+
+  command-description: "Server staff chat plugin!"
+  usage: "<red>Usage: /staffchat (message)"
+
+  permissions:
+    view-permission: "staffchat.use"
+    use-permission: "staffchat.use"
+
+    permission-message: "<red>You do not have permission to {0} this."
+
+  format: "<blue>[Staff Chat] {0}{1}<gray>: <blue>{2}"
+  # {0} = User prefix, {1} = user, {2} = message
